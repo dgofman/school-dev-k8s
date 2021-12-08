@@ -51,4 +51,3 @@ spec:
               serviceName:  {{ .Release.Name }}
               servicePort: {{ .Values.service.port }}
               {{- end }}
-{{- end }}
