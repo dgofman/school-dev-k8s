@@ -38,3 +38,7 @@ service:
 
 ingress:
   host: xpaste.<номер студента>.edu.slurm.io
+  className: nginx
+  path: /
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
