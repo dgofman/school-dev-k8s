@@ -37,7 +37,7 @@ service:
   port: 80
 
 ingress:
-  host: xpaste.<номер студента>.edu.slurm.io
+  host: xpaste.localhost
   className: nginx
   path: /
   annotations:
